@@ -51,7 +51,7 @@ Run the notebook
 
 There are 3 external Datasets used throughout the project:
 - [Job Listings (scrapped)](data/datasets/job_postings_raw.csv)
-- [People Skills](data/datasets/people_skills.csv)
+- [People Skills](data/datasets/employee_skills_35.csv)
 - [Job Requiremenets](data/datasets/job_requiremenets.csv)
 
 ### Notebooks
