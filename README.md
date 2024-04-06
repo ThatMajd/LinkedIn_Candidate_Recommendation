@@ -59,7 +59,7 @@ There are 3 external Datasets used throughout the project:
 There are 3 notebooks that are divided by subject, the notebook were writting through databricks and should be ran using it:
 - [Data Analysis]() - Comprehensive analysis of the data with interactive visualizations
 - [Pipline]() - Implementation of the pipeline described
-- [Scraping]() - Code used to scrap data from Linkedin
+- [Scraping]() - Code used to scrap data from Linkedin, to use either use your BrightData credintials or set `USE_PROXY = False`
 - [Insights]() - Insights about the different meta industries
 
 ### Assets
