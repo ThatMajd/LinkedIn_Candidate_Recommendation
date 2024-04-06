@@ -23,9 +23,9 @@
 
 ## Overview
 
-The "Candidate Locator" project introduces an advanced solution to streamline candidate selection processes within organizations. By harnessing machine learning techniques, particularly regression modeling, alongside thorough data collection and processing methods, the project aims to optimize recruitment efforts and identify optimal candidates for specific roles.
+The "Candidate Locator" project introduces an advanced solution to streamline candidate selection processes within organizations. By harnessing the power AI, particularly LLMs, alongside thorough data collection and processing methods, the project aims to optimize recruitment efforts and identify optimal candidates for specific roles.
 
-At its core, the project employs a model capable of predicting the tenure of candidates based on their skills and job requirements. This model takes inputs such as the "meta_industry" and a job "prompt" to extract skill requirements and match them with candidate profiles. Through rigorous data collection and training, the model provides insights into which candidates are likely to stay longest within the company.
+At its core, the project employs a pipeline, taking input `meta_indsutry` represeting the recruiter's industry and `prompt` which is the recruitter's description of the candidate they seek, then using LLMs and sophistacated embeddings we find a set of potential candidates which we order according to their expected work duration using a regression model.
 
 By automating candidate selection and tenure prediction, the "Candidate Locator" project offers a data-driven approach to hiring, promising enhanced efficiency and informed decision-making for organizations seeking to secure top talent.
 
@@ -33,7 +33,17 @@ By automating candidate selection and tenure prediction, the "Candidate Locator"
 
 ## Example
 
-Include an example or use case of how the data collected can be utilized or analyzed.
+To run an example head to [Pipeline Notebook](data/notebooks/Pipeline.ipynb), locate the code ?>?, as an example: 
+- `meta_industry = Technology`
+- `prompt = Looking for individuals skilled in HTML, CSS, and JavaScript for front-end web development.`
+
+Run the notebook, output:
+
+**Output:**
+|id|name|description|expected duration (months)|
+|--|----|-----------|-----------------|
+|1|James|Experienced Front-End Developer with 3+ year experience in Java, HTML, CSS and Javascript| 24|
+|...|...|...| ...|
 
 ## Files
 
