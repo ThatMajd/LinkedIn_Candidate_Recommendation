@@ -29,6 +29,8 @@ At its core, the project employs a model capable of predicting the tenure of can
 
 By automating candidate selection and tenure prediction, the "Candidate Locator" project offers a data-driven approach to hiring, promising enhanced efficiency and informed decision-making for organizations seeking to secure top talent.
 
+![Pipeline](data/assets/Pipeline.png)
+
 ## Example
 
 Include an example or use case of how the data collected can be utilized or analyzed.
