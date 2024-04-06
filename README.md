@@ -6,7 +6,7 @@
     <a>Tameer Milhem</a>&nbsp;,&nbsp;
     <a>Lana Haj</a>&nbsp;
     <br/> 
-    Cornell Tech<br/> 
+    Technion Institute of Technology<br/> 
     
 </p>
 
@@ -50,9 +50,9 @@ Run the notebook
 ### Data
 
 There are 3 external Datasets used throughout the project:
-- [Job Listings (scrapped)]()
-- [People Skills]()
-- [Job Requiremenets]()
+- [Job Listings (scrapped)](data/datasets/job_postings_raw.csv)
+- [People Skills](data/datasets/people_skills.csv)
+- [Job Requiremenets](data/datasets/job_requiremenets.csv)
 
 ### Notebooks
 
