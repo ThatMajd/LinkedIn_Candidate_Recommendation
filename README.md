@@ -37,7 +37,7 @@ To run an example head to [Pipeline Notebook](data/notebooks/Pipeline.ipynb), lo
 - `meta_industry = Technology`
 - `prompt = Looking for individuals skilled in HTML, CSS, and JavaScript for front-end web development.`
 
-Run the notebook, output:
+Run the notebook
 
 **Output:**
 |id|name|description|expected duration (months)|
@@ -49,11 +49,17 @@ Run the notebook, output:
 
 ### Data
 
-Describe the datasets used or generated in the project, including their sources and formats.
+There are 3 external Datasets used throughout the project:
+- [Job Listings (scrapped)]()
+- [People Skills]()
+- [Job Requiremenets]()
 
 ### Notebooks
 
-List and briefly describe any Jupyter notebooks or scripts used for data collection and processing.
+There are 3 notebooks that are divided by subject, the notebook were writting through databricks and should be ran using it:
+- [Data Analysis]() - Comprehensive analysis of the data with interactive visualizations
+- [Pipline]() - Implementation of the pipeline described
+- [Insights]() - Insights about the different meta industries
 
 ### Assets
 
