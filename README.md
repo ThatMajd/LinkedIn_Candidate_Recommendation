@@ -47,17 +47,11 @@ Run the notebook
 
 ## Files
 
-### Data
-
-There are 3 external Datasets used throughout the project:
-- [Job Listings (scrapped)](data/datasets/job_postings_raw.csv)
-- [People Skills](data/datasets/employee_skills_35.csv)
-- [Job Requiremenets](data/datasets/job_requiremenets.csv)
 
 ### Notebooks
 
 There are 4 notebooks that are divided by subject, the notebook were writting through databricks and should be ran using it:
-- [Data Analysis](data/notebooks/Data\ Analysis.ipynb) - Comprehensive analysis of the data with interactive visualizations
+- [Data Analysis](data/notebooks/Data_Analysis.ipynb) - Comprehensive analysis of the data with interactive visualizations
 - [Pipline](data/notebooks/Final_pipeline.ipynb) - Implementation of the pipeline described
 - [Scraping](data/notebooks/scrapping.ipynb) - Code used to scrap data from Linkedin, to use either use your BrightData credintials or set `USE_PROXY = False`
 - [Insights](data/notebooks/insights.ipynb) - Minor Insights about the different meta industries
