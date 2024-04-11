@@ -33,7 +33,7 @@ By automating candidate selection and tenure prediction, the "Candidate Locator"
 
 ## Example
 
-To run an example head to [Pipeline Notebook](data/notebooks/Pipeline.ipynb), locate the code ?>?, as an example: 
+To run an example head to [Pipeline Notebook](data/notebooks/Final_pipeline.ipynb), and choose your own HR Prompt and meta industry, as an example: 
 - `meta_industry = Technology`
 - `prompt = Looking for individuals skilled in HTML, CSS, and JavaScript for front-end web development.`
 
@@ -57,10 +57,10 @@ There are 3 external Datasets used throughout the project:
 ### Notebooks
 
 There are 4 notebooks that are divided by subject, the notebook were writting through databricks and should be ran using it:
-- [Data Analysis]() - Comprehensive analysis of the data with interactive visualizations
-- [Pipline]() - Implementation of the pipeline described
-- [Scraping]() - Code used to scrap data from Linkedin, to use either use your BrightData credintials or set `USE_PROXY = False`
-- [Insights]() - Insights about the different meta industries
+- [Data Analysis](data/notebooks/Data\ Analysis.ipynb) - Comprehensive analysis of the data with interactive visualizations
+- [Pipline](data/notebooks/Final_pipeline.ipynb) - Implementation of the pipeline described
+- [Scraping](data/notebooks/scrapping.ipynb) - Code used to scrap data from Linkedin, to use either use your BrightData credintials or set `USE_PROXY = False`
+- [Insights](data/notebooks/insights.ipynb) - Minor Insights about the different meta industries
 
 ### Misc
 Other files, like the files used to interface with the LLM and extract the skills and requiremenets
